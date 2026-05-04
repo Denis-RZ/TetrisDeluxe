@@ -1,0 +1,30 @@
+name: Feedback
+description: Share gameplay, UI, mission, or bug feedback.
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Gameplay
+        - Missions
+        - UI / Visual Design
+        - Save / Load
+        - Bug
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened?
+      description: Describe what you tried, what felt wrong, or what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot or notes
+      description: Add a screenshot if this is visual feedback.
