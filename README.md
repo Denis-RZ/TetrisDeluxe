@@ -1,6 +1,6 @@
 # Tetris Deluxe
 
-Public release page for Tetris Deluxe.
+Public release and gallery page for Tetris Deluxe.
 
 ## Download
 
@@ -10,11 +10,15 @@ Windows release: https://github.com/Denis-RZ/TetrisDeluxe/releases/latest
 
 Screenshots and feature overview: https://denis-rz.github.io/TetrisDeluxe/
 
-## Feedback
+## Comments and Feedback
+
+Use GitHub Discussions for general comments:
+
+https://github.com/Denis-RZ/TetrisDeluxe/discussions
 
 Use GitHub Issues for bug reports, design feedback, and gameplay suggestions:
 
-https://github.com/Denis-RZ/TetrisDeluxe/issues
+https://github.com/Denis-RZ/TetrisDeluxe/issues/new?template=feedback.yml
 
 ## Source
 

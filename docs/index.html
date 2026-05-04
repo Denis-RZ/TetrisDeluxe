@@ -3,69 +3,216 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tetris Deluxe</title>
-  <meta name="description" content="A custom C# WinForms Tetris game with missions, bonuses, save/load, plugins, and a redesigned game UI.">
+  <title>Tetris Deluxe - Windows Tetris Game with Missions and Power-Ups</title>
+  <meta name="description" content="Download Tetris Deluxe, a Windows desktop Tetris game with classic play, missions, power-ups, save/load, level transitions, and a custom soft visual style.">
+  <meta name="keywords" content="Tetris Deluxe, Windows Tetris game, desktop puzzle game, missions mode, power-ups, WinForms game">
+  <meta name="author" content="Denis-RZ">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://denis-rz.github.io/TetrisDeluxe/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tetris Deluxe - Windows Tetris Game">
+  <meta property="og:description" content="A Windows desktop Tetris game with missions, power-ups, save/load, level transitions, and a polished custom interface.">
+  <meta property="og:url" content="https://denis-rz.github.io/TetrisDeluxe/">
+  <meta property="og:image" content="https://denis-rz.github.io/TetrisDeluxe/assets/gameplay.png">
+  <meta property="og:site_name" content="Tetris Deluxe">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tetris Deluxe - Windows Tetris Game">
+  <meta name="twitter:description" content="Download a Windows Tetris game with missions, power-ups, save/load, and a redesigned interface.">
+  <meta name="twitter:image" content="https://denis-rz.github.io/TetrisDeluxe/assets/gameplay.png">
+  <meta name="theme-color" content="#f7fbff">
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Tetris Deluxe",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Windows",
+      "description": "A Windows desktop Tetris game with missions, power-ups, save/load, level transitions, and a custom soft visual style.",
+      "image": "https://denis-rz.github.io/TetrisDeluxe/assets/gameplay.png",
+      "downloadUrl": "https://github.com/Denis-RZ/TetrisDeluxe/releases/latest",
+      "discussionUrl": "https://github.com/Denis-RZ/TetrisDeluxe/discussions",
+      "softwareVersion": "0.1.0",
+      "author": {
+        "@type": "Person",
+        "name": "Denis-RZ"
+      }
+    }
+  </script>
 </head>
 <body>
-  <header class="hero">
-    <nav>
-      <img src="assets/icon.png" alt="" class="logo">
-      <a href="https://github.com/Denis-RZ/TetrisDeluxe">GitHub</a>
-      <a href="https://github.com/Denis-RZ/TetrisDeluxe/issues">Feedback</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Tetris Deluxe home">
+      <img src="assets/icon.png" alt="" class="brand-icon">
+      <span>Tetris Deluxe</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#gallery">Gallery</a>
+      <a href="#feedback">Comments</a>
+      <a href="https://github.com/Denis-RZ/TetrisDeluxe/releases/latest">Download</a>
     </nav>
-    <div class="hero-grid">
-      <section>
-        <p class="eyebrow">C# Desktop Game</p>
-        <h1>Tetris Deluxe</h1>
-        <p class="lead">A custom WinForms Tetris project with missions, power-ups, save/load, level transitions, generated music, and plugin-based gameplay extensions.</p>
-        <div class="actions">
-          <a class="button primary" href="https://github.com/Denis-RZ/TetrisDeluxe/releases/latest">Download</a>
-          <a class="button" href="https://github.com/Denis-RZ/TetrisDeluxe/issues/new/choose">Send Feedback</a>
-        </div>
-      </section>
-      <img class="hero-shot" src="assets/gameplay.png" alt="Tetris Deluxe gameplay screen">
-    </div>
   </header>
 
-  <main>
-    <section class="feature-strip">
-      <article><strong>Modes</strong><span>Classic, Marathon, Missions, Multiplayer</span></article>
-      <article><strong>Systems</strong><span>Save/load, hold, bonuses, achievements</span></article>
-      <article><strong>UI</strong><span>Custom HUD, popups, overlays, gallery-ready visuals</span></article>
-    </section>
-
-    <section class="gallery">
-      <h2>Gallery</h2>
-      <div class="shots">
-        <figure>
-          <img src="assets/menu.png" alt="Main menu">
-          <figcaption>Main menu</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/missions.png" alt="Missions HUD">
-          <figcaption>Missions HUD</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/options.png" alt="Options popup">
-          <figcaption>Options popup</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/level-transition.png" alt="Level transition overlay">
-          <figcaption>Level transition</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/powerups.png" alt="Power-up icons">
-          <figcaption>Power-ups</figcaption>
-        </figure>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Windows desktop game</p>
+        <h1>Tetris Deluxe</h1>
+        <p class="lead">Classic block-stacking with missions, power-ups, save/load, level transitions, and a softer interface built around readable gameplay.</p>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/Denis-RZ/TetrisDeluxe/releases/latest">Download for Windows</a>
+          <a class="button" href="https://github.com/Denis-RZ/TetrisDeluxe/discussions">Write a Comment</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="assets/gameplay.png" alt="Tetris Deluxe gameplay screen">
       </div>
     </section>
 
-    <section class="feedback">
-      <h2>Feedback Wanted</h2>
-      <p>Try the game and open an issue for bugs, UI feedback, mission ideas, or gameplay balance suggestions.</p>
-      <a class="button primary" href="https://github.com/Denis-RZ/TetrisDeluxe/issues/new/choose">Open Feedback Issue</a>
+    <section class="release-panel" aria-label="Release highlights">
+      <article>
+        <span class="metric">v0.1.0</span>
+        <strong>Public release</strong>
+        <p>Playable Windows build with the redesigned interface and current game modes.</p>
+      </article>
+      <article>
+        <span class="metric">4 modes</span>
+        <strong>Classic, Marathon, Missions, Multiplayer</strong>
+        <p>Different ways to play, from regular score chasing to objective-based runs.</p>
+      </article>
+      <article>
+        <span class="metric">Feedback</span>
+        <strong>Comments are open</strong>
+        <p>Use Discussions for general comments or Issues for bugs and UI notes.</p>
+      </article>
+    </section>
+
+    <section class="section intro">
+      <div>
+        <p class="eyebrow">Game structure</p>
+        <h2>Built for quick play, but with room to improve</h2>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <strong>Missions</strong>
+          <p>Timed goals, progress HUD, completion overlays, and escalating objectives.</p>
+        </article>
+        <article>
+          <strong>Power-ups</strong>
+          <p>Bonus objects and plugin events are shown as game-like icons instead of raw symbols.</p>
+        </article>
+        <article>
+          <strong>Persistence</strong>
+          <p>Save/load keeps the run state, score, level, board, and mission progress together.</p>
+        </article>
+        <article>
+          <strong>Presentation</strong>
+          <p>Custom game HUD, settings popup, level transition screen, and original icon assets.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <div class="section-heading">
+        <p class="eyebrow">Screenshots</p>
+        <h2>Gallery</h2>
+      </div>
+      <div class="slider" data-slider>
+        <button class="slider-arrow previous" type="button" data-previous aria-label="Previous screenshot">‹</button>
+        <figure class="slide is-active" data-slide>
+          <img src="assets/gameplay.png" alt="Gameplay with board and side panels">
+          <figcaption>
+            <strong>Gameplay</strong>
+            <span>Readable board, side information, bonuses, and progression in one screen.</span>
+          </figcaption>
+        </figure>
+        <figure class="slide" data-slide>
+          <img src="assets/menu.png" alt="Main menu screen">
+          <figcaption>
+            <strong>Main Menu</strong>
+            <span>Mode selection with a lighter visual tone and clear entry points.</span>
+          </figcaption>
+        </figure>
+        <figure class="slide" data-slide>
+          <img src="assets/missions.png" alt="Mission mode HUD">
+          <figcaption>
+            <strong>Missions</strong>
+            <span>Objective panel, timer, progress, and mission state during play.</span>
+          </figcaption>
+        </figure>
+        <figure class="slide" data-slide>
+          <img src="assets/options.png" alt="Settings popup">
+          <figcaption>
+            <strong>Settings Popup</strong>
+            <span>Settings live in a compact popup instead of breaking the game layout.</span>
+          </figcaption>
+        </figure>
+        <figure class="slide" data-slide>
+          <img src="assets/level-transition.png" alt="Level transition overlay">
+          <figcaption>
+            <strong>Level Transition</strong>
+            <span>Level changes are presented as an event instead of a plain alert.</span>
+          </figcaption>
+        </figure>
+        <figure class="slide" data-slide>
+          <img src="assets/powerups.png" alt="Power-up icons">
+          <figcaption>
+            <strong>Power-ups</strong>
+            <span>Special objects use custom visual marks so they read like gameplay elements.</span>
+          </figcaption>
+        </figure>
+        <button class="slider-arrow next" type="button" data-next aria-label="Next screenshot">›</button>
+      </div>
+      <div class="slider-dots" data-dots aria-label="Gallery navigation"></div>
+    </section>
+
+    <section id="feedback" class="section feedback-section">
+      <div>
+        <p class="eyebrow">Community</p>
+        <h2>Comments and feedback</h2>
+        <p class="lead small">Write what feels weak, what is confusing, what broke, or what should be improved next. General comments go to Discussions; concrete bugs and UI problems go to Issues.</p>
+      </div>
+      <div class="feedback-actions">
+        <a class="button primary" href="https://github.com/Denis-RZ/TetrisDeluxe/discussions">Open Comments</a>
+        <a class="button" href="https://github.com/Denis-RZ/TetrisDeluxe/issues/new?template=feedback.yml">Report Feedback</a>
+      </div>
     </section>
   </main>
+
+  <footer>
+    <span>Tetris Deluxe</span>
+    <a href="https://github.com/Denis-RZ/TetrisDeluxe">GitHub</a>
+    <a href="https://github.com/Denis-RZ/TetrisDeluxe/releases/latest">Latest Release</a>
+  </footer>
+
+  <script>
+    const slider = document.querySelector("[data-slider]");
+    const slides = [...document.querySelectorAll("[data-slide]")];
+    const dotsHost = document.querySelector("[data-dots]");
+    let currentSlide = 0;
+
+    const setSlide = (index) => {
+      currentSlide = (index + slides.length) % slides.length;
+      slides.forEach((slide, slideIndex) => {
+        slide.classList.toggle("is-active", slideIndex === currentSlide);
+      });
+      [...dotsHost.children].forEach((dot, dotIndex) => {
+        dot.classList.toggle("is-active", dotIndex === currentSlide);
+        dot.setAttribute("aria-current", dotIndex === currentSlide ? "true" : "false");
+      });
+    };
+
+    slides.forEach((_, index) => {
+      const dot = document.createElement("button");
+      dot.type = "button";
+      dot.setAttribute("aria-label", `Show screenshot ${index + 1}`);
+      dot.addEventListener("click", () => setSlide(index));
+      dotsHost.appendChild(dot);
+    });
+
+    slider.querySelector("[data-previous]").addEventListener("click", () => setSlide(currentSlide - 1));
+    slider.querySelector("[data-next]").addEventListener("click", () => setSlide(currentSlide + 1));
+    setSlide(0);
+  </script>
 </body>
 </html>
