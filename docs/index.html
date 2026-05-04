@@ -4,20 +4,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tetris Deluxe - Windows Tetris Game with Missions and Power-Ups</title>
-  <meta name="description" content="Download Tetris Deluxe, a Windows desktop Tetris game with classic play, missions, power-ups, save/load, level transitions, and a custom soft visual style.">
-  <meta name="keywords" content="Tetris Deluxe, Windows Tetris game, desktop puzzle game, missions mode, power-ups, WinForms game">
+  <meta name="description" content="Download Tetris Deluxe, a Windows desktop Tetris game with classic play, missions, power-ups, WiFi multiplayer, save/load, level transitions, and a custom soft visual style.">
+  <meta name="keywords" content="Tetris Deluxe, Windows Tetris game, desktop puzzle game, missions mode, power-ups, multiplayer, WinForms game">
   <meta name="author" content="Denis-RZ">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://denis-rz.github.io/TetrisDeluxe/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Tetris Deluxe - Windows Tetris Game">
-  <meta property="og:description" content="A Windows desktop Tetris game with missions, power-ups, save/load, level transitions, and a polished custom interface.">
+  <meta property="og:description" content="Tetris with missions, bombs, WiFi multiplayer, and save/load — a fresh take on the classic.">
   <meta property="og:url" content="https://denis-rz.github.io/TetrisDeluxe/">
   <meta property="og:image" content="https://denis-rz.github.io/TetrisDeluxe/assets/gameplay.png">
   <meta property="og:site_name" content="Tetris Deluxe">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Tetris Deluxe - Windows Tetris Game">
-  <meta name="twitter:description" content="Download a Windows Tetris game with missions, power-ups, save/load, and a redesigned interface.">
+  <meta name="twitter:description" content="Tetris with missions, bombs, WiFi multiplayer, and save/load — a fresh take on the classic.">
   <meta name="twitter:image" content="https://denis-rz.github.io/TetrisDeluxe/assets/gameplay.png">
   <meta name="theme-color" content="#f7fbff">
   <link rel="stylesheet" href="styles.css">
@@ -28,7 +28,7 @@
       "name": "Tetris Deluxe",
       "applicationCategory": "GameApplication",
       "operatingSystem": "Windows",
-      "description": "A Windows desktop Tetris game with missions, power-ups, save/load, level transitions, and a custom soft visual style.",
+      "description": "A Windows desktop Tetris game with missions, power-ups, WiFi multiplayer, save/load, level transitions, and a custom soft visual style.",
       "image": "https://denis-rz.github.io/TetrisDeluxe/assets/gameplay.png",
       "downloadUrl": "https://github.com/Denis-RZ/TetrisDeluxe/releases/latest",
       "discussionUrl": "https://github.com/Denis-RZ/TetrisDeluxe/discussions",
@@ -47,21 +47,22 @@
       <span>Tetris Deluxe</span>
     </a>
     <nav aria-label="Main navigation">
+      <a href="#features">Features</a>
       <a href="#gallery">Gallery</a>
-      <a href="#feedback">Comments</a>
-      <a href="https://github.com/Denis-RZ/TetrisDeluxe/releases/latest">Download</a>
+      <a href="#install">Install</a>
+      <a href="https://github.com/Denis-RZ/TetrisDeluxe/releases/latest" class="nav-download">Download</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">Windows desktop game</p>
+        <span class="badge">v0.1.0 &middot; Free &middot; Windows</span>
         <h1>Tetris Deluxe</h1>
-        <p class="lead">Classic block-stacking with missions, power-ups, save/load, level transitions, and a softer interface built around readable gameplay.</p>
+        <p class="lead">Missions, bombs, WiFi multiplayer, and save/load — a fresh take on the classic block game.</p>
         <div class="actions">
-          <a class="button primary" href="https://github.com/Denis-RZ/TetrisDeluxe/releases/latest">Download for Windows</a>
-          <a class="button" href="https://github.com/Denis-RZ/TetrisDeluxe/discussions">Write a Comment</a>
+          <a class="button primary" href="https://github.com/Denis-RZ/TetrisDeluxe/releases/latest">&#8595; Download for Windows</a>
+          <a class="button" href="https://github.com/Denis-RZ/TetrisDeluxe">View on GitHub</a>
         </div>
       </div>
       <div class="hero-media">
@@ -73,41 +74,46 @@
       <article>
         <span class="metric">v0.1.0</span>
         <strong>Public release</strong>
-        <p>Playable Windows build with the redesigned interface and current game modes.</p>
+        <p>Playable Windows build with all four game modes and the redesigned interface.</p>
       </article>
       <article>
         <span class="metric">4 modes</span>
-        <strong>Classic, Marathon, Missions, Multiplayer</strong>
-        <p>Different ways to play, from regular score chasing to objective-based runs.</p>
+        <strong>Classic &middot; Marathon &middot; Missions &middot; Multiplayer</strong>
+        <p>From quick score runs to timed objectives and live WiFi play against a friend.</p>
       </article>
       <article>
-        <span class="metric">Feedback</span>
-        <strong>Comments are open</strong>
-        <p>Use Discussions for general comments or Issues for bugs and UI notes.</p>
+        <span class="metric">Open Source</span>
+        <strong>Free to play and explore</strong>
+        <p>Full source code on GitHub. No installer required — just unzip and run.</p>
       </article>
     </section>
 
-    <section class="section intro">
+    <section id="features" class="section intro">
       <div>
-        <p class="eyebrow">Game structure</p>
-        <h2>Built for quick play, but with room to improve</h2>
+        <p class="eyebrow">What's inside</p>
+        <h2>More than a Tetris clone</h2>
+        <p class="lead small">Built on top of classic Tetris rules with extra mechanics that change how the game plays and feels.</p>
       </div>
       <div class="feature-grid">
         <article>
-          <strong>Missions</strong>
-          <p>Timed goals, progress HUD, completion overlays, and escalating objectives.</p>
+          <span class="feature-icon">🎯</span>
+          <strong>Missions Mode</strong>
+          <p>Timed objectives with a live HUD — clear lines, reach a score, use Hold, or hit a level before time runs out.</p>
         </article>
         <article>
+          <span class="feature-icon">💣</span>
           <strong>Power-ups</strong>
-          <p>Bonus objects and plugin events are shown as game-like icons instead of raw symbols.</p>
+          <p>Bombs, slow-down, double points, and extra score spawn on the board as collectible objects during play.</p>
         </article>
         <article>
-          <strong>Persistence</strong>
-          <p>Save/load keeps the run state, score, level, board, and mission progress together.</p>
+          <span class="feature-icon">🌐</span>
+          <strong>WiFi Multiplayer</strong>
+          <p>Host or join a game over local WiFi. Clear lines to send garbage rows; collect bombs to hit your opponent.</p>
         </article>
         <article>
-          <strong>Presentation</strong>
-          <p>Custom game HUD, settings popup, level transition screen, and original icon assets.</p>
+          <span class="feature-icon">💾</span>
+          <strong>Save &amp; Load</strong>
+          <p>Full game state saved: board, score, level, pieces, and mission progress. Resume exactly where you stopped.</p>
         </article>
       </div>
     </section>
@@ -118,12 +124,12 @@
         <h2>Gallery</h2>
       </div>
       <div class="slider" data-slider>
-        <button class="slider-arrow previous" type="button" data-previous aria-label="Previous screenshot">‹</button>
+        <button class="slider-arrow previous" type="button" data-previous aria-label="Previous screenshot">&#8249;</button>
         <figure class="slide is-active" data-slide>
           <img src="assets/gameplay.png" alt="Gameplay with board and side panels">
           <figcaption>
             <strong>Gameplay</strong>
-            <span>Readable board, side information, bonuses, and progression in one screen.</span>
+            <span>Readable board, side HUD, active bonuses, and level progression in one screen.</span>
           </figcaption>
         </figure>
         <figure class="slide" data-slide>
@@ -137,44 +143,76 @@
           <img src="assets/missions.png" alt="Mission mode HUD">
           <figcaption>
             <strong>Missions</strong>
-            <span>Objective panel, timer, progress, and mission state during play.</span>
+            <span>Objective panel, countdown timer, progress bar, and mission state visible during play.</span>
           </figcaption>
         </figure>
         <figure class="slide" data-slide>
           <img src="assets/options.png" alt="Settings popup">
           <figcaption>
-            <strong>Settings Popup</strong>
-            <span>Settings live in a compact popup instead of breaking the game layout.</span>
+            <strong>Settings</strong>
+            <span>Board size, colors, speed, and bonus options in a compact popup — no separate screen.</span>
           </figcaption>
         </figure>
         <figure class="slide" data-slide>
           <img src="assets/level-transition.png" alt="Level transition overlay">
           <figcaption>
             <strong>Level Transition</strong>
-            <span>Level changes are presented as an event instead of a plain alert.</span>
+            <span>Level-up shown as a full overlay event with speed info and next line target.</span>
           </figcaption>
         </figure>
         <figure class="slide" data-slide>
-          <img src="assets/powerups.png" alt="Power-up icons">
+          <img src="assets/powerups.png" alt="Power-up icons on board">
           <figcaption>
             <strong>Power-ups</strong>
-            <span>Special objects use custom visual marks so they read like gameplay elements.</span>
+            <span>Bomb radius preview, slow-down timer, and double-points indicator shown live.</span>
           </figcaption>
         </figure>
-        <button class="slider-arrow next" type="button" data-next aria-label="Next screenshot">›</button>
+        <button class="slider-arrow next" type="button" data-next aria-label="Next screenshot">&#8250;</button>
       </div>
       <div class="slider-dots" data-dots aria-label="Gallery navigation"></div>
+      <p class="gallery-hint">&#8592; &#8594; arrow keys &nbsp;&middot;&nbsp; swipe on mobile</p>
+    </section>
+
+    <section id="install" class="section install-section">
+      <div class="section-heading">
+        <p class="eyebrow">Setup</p>
+        <h2>Up and running in seconds</h2>
+      </div>
+      <div class="install-steps">
+        <div class="install-step">
+          <span class="step-num">1</span>
+          <div>
+            <strong>Download</strong>
+            <p>Get the latest release ZIP from GitHub using the button below.</p>
+          </div>
+        </div>
+        <div class="install-step">
+          <span class="step-num">2</span>
+          <div>
+            <strong>Extract</strong>
+            <p>Unzip the archive to any folder. No installer, no admin rights needed.</p>
+          </div>
+        </div>
+        <div class="install-step">
+          <span class="step-num">3</span>
+          <div>
+            <strong>Play</strong>
+            <p>Run <code>TetrisGame.exe</code> and pick a mode from the menu.</p>
+          </div>
+        </div>
+      </div>
+      <a class="button primary install-cta" href="https://github.com/Denis-RZ/TetrisDeluxe/releases/latest">&#8595; Download latest release</a>
     </section>
 
     <section id="feedback" class="section feedback-section">
       <div>
         <p class="eyebrow">Community</p>
         <h2>Comments and feedback</h2>
-        <p class="lead small">Write what feels weak, what is confusing, what broke, or what should be improved next. General comments go to Discussions; concrete bugs and UI problems go to Issues.</p>
+        <p class="lead small">Write what feels weak, what is confusing, what broke, or what should come next. General comments go to Discussions; concrete bugs go to Issues.</p>
       </div>
       <div class="feedback-actions">
         <a class="button primary" href="https://github.com/Denis-RZ/TetrisDeluxe/discussions">Open Comments</a>
-        <a class="button" href="https://github.com/Denis-RZ/TetrisDeluxe/issues/new?template=feedback.yml">Report Feedback</a>
+        <a class="button" href="https://github.com/Denis-RZ/TetrisDeluxe/issues/new?template=feedback.yml">Report a Bug</a>
       </div>
     </section>
   </main>
@@ -183,6 +221,7 @@
     <span>Tetris Deluxe</span>
     <a href="https://github.com/Denis-RZ/TetrisDeluxe">GitHub</a>
     <a href="https://github.com/Denis-RZ/TetrisDeluxe/releases/latest">Latest Release</a>
+    <a href="https://github.com/Denis-RZ/TetrisDeluxe/discussions">Discussions</a>
   </footer>
 
   <script>
@@ -193,12 +232,10 @@
 
     const setSlide = (index) => {
       currentSlide = (index + slides.length) % slides.length;
-      slides.forEach((slide, slideIndex) => {
-        slide.classList.toggle("is-active", slideIndex === currentSlide);
-      });
-      [...dotsHost.children].forEach((dot, dotIndex) => {
-        dot.classList.toggle("is-active", dotIndex === currentSlide);
-        dot.setAttribute("aria-current", dotIndex === currentSlide ? "true" : "false");
+      slides.forEach((slide, i) => slide.classList.toggle("is-active", i === currentSlide));
+      [...dotsHost.children].forEach((dot, i) => {
+        dot.classList.toggle("is-active", i === currentSlide);
+        dot.setAttribute("aria-current", i === currentSlide ? "true" : "false");
       });
     };
 
@@ -212,6 +249,21 @@
 
     slider.querySelector("[data-previous]").addEventListener("click", () => setSlide(currentSlide - 1));
     slider.querySelector("[data-next]").addEventListener("click", () => setSlide(currentSlide + 1));
+
+    // Keyboard navigation
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowLeft")  setSlide(currentSlide - 1);
+      if (e.key === "ArrowRight") setSlide(currentSlide + 1);
+    });
+
+    // Touch swipe
+    let touchStartX = 0;
+    slider.addEventListener("touchstart", (e) => { touchStartX = e.touches[0].clientX; }, { passive: true });
+    slider.addEventListener("touchend", (e) => {
+      const diff = touchStartX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 50) setSlide(currentSlide + (diff > 0 ? 1 : -1));
+    }, { passive: true });
+
     setSlide(0);
   </script>
 </body>
