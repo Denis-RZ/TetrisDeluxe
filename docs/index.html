@@ -32,7 +32,7 @@
       "image": "https://denis-rz.github.io/TetrisDeluxe/assets/gameplay.png",
       "downloadUrl": "https://github.com/Denis-RZ/TetrisDeluxe/releases/latest",
       "discussionUrl": "https://github.com/Denis-RZ/TetrisDeluxe/discussions",
-      "softwareVersion": "0.1.0",
+      "softwareVersion": "0.2.0",
       "author": {
         "@type": "Person",
         "name": "Denis-RZ"
@@ -57,9 +57,9 @@
   <main id="top">
     <section class="hero">
       <div class="hero-copy">
-        <span class="badge">v0.1.0 &middot; Free &middot; Windows</span>
+        <span class="badge">v0.2.0 &middot; Free &middot; Windows</span>
         <h1>Tetris Deluxe</h1>
-        <p class="lead">Missions, bombs, WiFi multiplayer, and save/load — a fresh take on the classic block game.</p>
+        <p class="lead">Missions, bombs, WiFi multiplayer, expert bot AI, and save/load — a fresh take on the classic block game.</p>
         <div class="actions">
           <a class="button primary" href="https://github.com/Denis-RZ/TetrisDeluxe/releases/latest">&#8595; Download for Windows</a>
           <a class="button" href="https://github.com/Denis-RZ/TetrisDeluxe">View on GitHub</a>
@@ -72,9 +72,9 @@
 
     <section class="release-panel" aria-label="Release highlights">
       <article>
-        <span class="metric">v0.1.0</span>
-        <strong>Public release</strong>
-        <p>Playable Windows build with all four game modes and the redesigned interface.</p>
+        <span class="metric">v0.2.0</span>
+        <strong>Updated release</strong>
+        <p>Expert bot with 2-piece lookahead, improved missions, UI fixes, and layout polish.</p>
       </article>
       <article>
         <span class="metric">4 modes</span>
@@ -98,12 +98,17 @@
         <article>
           <span class="feature-icon">🎯</span>
           <strong>Missions Mode</strong>
-          <p>Timed objectives with a live HUD — clear lines, reach a score, use Hold, or hit a level before time runs out.</p>
+          <p>Timed objectives with a live HUD — clear lines, reach a score, use Hold, or level up before the timer runs out.</p>
         </article>
         <article>
           <span class="feature-icon">💣</span>
           <strong>Power-ups</strong>
           <p>Bombs, slow-down, double points, and extra score spawn on the board as collectible objects during play.</p>
+        </article>
+        <article>
+          <span class="feature-icon">🤖</span>
+          <strong>Expert Bot AI</strong>
+          <p>Three difficulty levels. Expert uses 2-piece lookahead with pruning — plays fast without freezing.</p>
         </article>
         <article>
           <span class="feature-icon">🌐</span>
@@ -126,17 +131,24 @@
       <div class="slider" data-slider>
         <button class="slider-arrow previous" type="button" data-previous aria-label="Previous screenshot">&#8249;</button>
         <figure class="slide is-active" data-slide>
-          <img src="assets/gameplay.png" alt="Gameplay with board and side panels">
+          <img src="assets/gameplay-classic.png" alt="Classic mode gameplay with leaderboard and side panels">
           <figcaption>
             <strong>Gameplay</strong>
-            <span>Readable board, side HUD, active bonuses, and level progression in one screen.</span>
+            <span>Board, leaderboard, next/hold pieces, score, and level all visible at once.</span>
           </figcaption>
         </figure>
         <figure class="slide" data-slide>
-          <img src="assets/menu.png" alt="Main menu screen">
+          <img src="assets/splash-menu.png" alt="Main menu with mode selection">
           <figcaption>
             <strong>Main Menu</strong>
-            <span>Mode selection with a lighter visual tone and clear entry points.</span>
+            <span>Four game modes plus load — animated block preview plays in the background.</span>
+          </figcaption>
+        </figure>
+        <figure class="slide" data-slide>
+          <img src="assets/multiplayer-setup.png" alt="Multiplayer setup dialog">
+          <figcaption>
+            <strong>Multiplayer</strong>
+            <span>Host or join over local WiFi — enter IP and port, then play.</span>
           </figcaption>
         </figure>
         <figure class="slide" data-slide>
