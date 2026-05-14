@@ -276,7 +276,7 @@ h2 {
 
 .release-panel {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 14px;
   margin-bottom: 92px;
 }
@@ -520,6 +520,12 @@ figcaption strong {
   font-size: 16px;
   padding: 0 28px;
   min-height: 50px;
+}
+
+.install-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .feedback-section {

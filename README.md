@@ -4,7 +4,7 @@ Public release and gallery page for Tetris Deluxe.
 
 ## Download
 
-Windows release: https://github.com/Denis-RZ/TetrisDeluxe/releases/latest
+Windows ZIP and Android APK: https://github.com/Denis-RZ/TetrisDeluxe/releases/latest
 
 ## Gallery
 
