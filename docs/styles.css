@@ -528,6 +528,59 @@ figcaption strong {
   gap: 12px;
 }
 
+.support-section {
+  display: grid;
+  grid-template-columns: 1fr minmax(220px, 300px);
+  gap: 28px;
+  align-items: center;
+  padding: 34px;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background: #101523;
+  box-shadow: var(--shadow);
+}
+
+.support-section h2,
+.support-section .eyebrow {
+  color: #fff;
+}
+
+.support-section .lead {
+  color: #cbd5f6;
+}
+
+.donation-address {
+  overflow-wrap: anywhere;
+  margin: 18px 0 0;
+  padding: 12px 14px;
+  border: 1px solid rgba(255, 255, 255, .14);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, .06);
+  color: #ffd98d;
+  font-family: "Segoe UI Mono", "Consolas", monospace;
+  font-size: 14px;
+}
+
+.donation-card {
+  justify-self: end;
+  display: grid;
+  gap: 12px;
+  justify-items: center;
+  width: min(100%, 260px);
+  padding: 18px;
+  border-radius: 20px;
+  background: #fff;
+  color: var(--ink);
+  font-weight: 900;
+  text-align: center;
+}
+
+.donation-card img {
+  width: min(100%, 210px);
+  height: auto;
+  image-rendering: pixelated;
+}
+
 .feedback-section {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -597,6 +650,17 @@ footer a {
 
   .install-section {
     padding: 24px;
+  }
+
+  .support-section,
+  .feedback-section {
+    grid-template-columns: 1fr;
+    padding: 24px;
+  }
+
+  .donation-card {
+    justify-self: stretch;
+    margin: 0 auto;
   }
 
   .slider {
