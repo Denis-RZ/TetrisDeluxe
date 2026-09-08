@@ -8,6 +8,8 @@ Block Duel APK 1.6: https://denis-rz.github.io/TetrisDeluxe/assets/Block-Duel-1.
 
 Release notes and older downloads: https://github.com/Denis-RZ/TetrisDeluxe/releases/latest
 
+Real gameplay previews are included on the site as MP4 and GIF recordings.
+
 ## Secondary download — Windows
 
 Windows release: https://github.com/Denis-RZ/TetrisDeluxe/releases/latest
