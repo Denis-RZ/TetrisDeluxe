@@ -1,10 +1,16 @@
-# Tetris Deluxe
+# Block Duel — Android game and Tetris Deluxe desktop edition
 
-Public release and gallery page for Tetris Deluxe.
+Public release and gallery page for Block Duel, with the Tetris Deluxe Windows edition as a secondary desktop build.
 
-## Download
+## Primary download — Android
 
-Windows ZIP and Android APK: https://github.com/Denis-RZ/TetrisDeluxe/releases/latest
+Block Duel APK 1.6: https://denis-rz.github.io/TetrisDeluxe/assets/Block-Duel-1.6.apk
+
+Release notes and older downloads: https://github.com/Denis-RZ/TetrisDeluxe/releases/latest
+
+## Secondary download — Windows
+
+Windows release: https://github.com/Denis-RZ/TetrisDeluxe/releases/latest
 
 ## Gallery
 
@@ -28,4 +34,4 @@ https://denis-rz.github.io/TetrisDeluxe/#support
 
 ## Source
 
-The source code is kept private for now. This public repository contains only the website, screenshots, feedback form, and release downloads.
+The source code is kept private for now. This public repository contains the website, screenshots, feedback form, Android APK, Windows release downloads and product documentation.
