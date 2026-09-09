@@ -738,6 +738,10 @@ footer a {
     flex-direction: row;
   }
 
+  .android-screenshots img {
+    width: calc(50% - 6px);
+  }
+
   .support-section,
   .feedback-section {
     grid-template-columns: 1fr;
@@ -798,7 +802,7 @@ footer a {
   }
 
   .hero-media img {
-    max-height: 560px;
+    max-height: 420px;
   }
 
   .actions,
