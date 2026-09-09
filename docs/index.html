@@ -1,25 +1,30 @@
 <!doctype html>
-<html lang="zh-Hant-TW">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Block Duel — Android 方塊益智遊戲與戰術機器人戰役</title>
-  <meta name="description" content="下載 Block Duel 1.6 Android 版：經典方塊、觸控操作、戰術戰役，以及會依模式行動的 BOT。">
-  <meta name="keywords" content="Block Duel, Android 遊戲, 方塊益智遊戲, 戰術機器人, 觸控遊戲">
+  <title>Block Duel — Android Puzzle Game with Tactical Bot Campaign</title>
+  <meta name="description" content="Download Block Duel 1.6 for Android: Classic falling blocks, touch controls, a Tactical Campaign and a mode-aware bot.">
+  <meta name="keywords" content="Block Duel, Android puzzle game, Tetris game, tactical bot campaign, touch controls, falling blocks">
   <meta name="author" content="Denis-RZ">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://denis-rz.github.io/TetrisDeluxe/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Block Duel — Android 方塊益智遊戲">
-  <meta property="og:description" content="經典方塊玩法，加上對抗智慧 BOT 的十關戰術戰役。">
+  <meta property="og:title" content="Block Duel — Android Puzzle Game">
+  <meta property="og:description" content="Classic falling blocks and a 10-stage Tactical Campaign against a mode-aware bot.">
   <meta property="og:url" content="https://denis-rz.github.io/TetrisDeluxe/">
   <meta property="og:image" content="https://denis-rz.github.io/TetrisDeluxe/assets/android-main-menu.png">
   <meta property="og:site_name" content="Block Duel">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Block Duel — Android 方塊益智遊戲">
-  <meta name="twitter:description" content="下載 Block Duel 1.6 Android 版，體驗觸控操作、戰術戰役與模式感知 BOT。">
+  <meta name="twitter:title" content="Block Duel — Android Puzzle Game">
+  <meta name="twitter:description" content="Download Block Duel 1.6 for Android with touch controls, Tactical Campaign and a mode-aware bot.">
   <meta name="twitter:image" content="https://denis-rz.github.io/TetrisDeluxe/assets/android-main-menu.png">
   <meta name="theme-color" content="#f7fbff">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="apple-touch-icon" href="assets/icon.png">
+  <link rel="alternate" hreflang="en" href="https://denis-rz.github.io/TetrisDeluxe/">
+  <link rel="alternate" hreflang="zh-Hant-TW" href="https://denis-rz.github.io/TetrisDeluxe/zh-tw/">
+  <link rel="alternate" hreflang="x-default" href="https://denis-rz.github.io/TetrisDeluxe/">
   <link rel="stylesheet" href="styles.css?v=1.6.2">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJQLMPDZRV"></script>
   <script>
@@ -36,7 +41,7 @@
       "applicationCategory": "GameApplication",
       "applicationSubCategory": "Puzzle Game",
       "operatingSystem": "Android",
-      "description": "Android 方塊益智遊戲，包含 Classic、Tactical Campaign、觸控操作與模式感知 BOT。",
+      "description": "Android falling-block puzzle game with Classic play, Tactical Campaign, touch controls and a mode-aware bot.",
       "image": "https://denis-rz.github.io/TetrisDeluxe/assets/android-main-menu.png",
       "screenshot": [
         "https://denis-rz.github.io/TetrisDeluxe/assets/android-main-menu.png",
@@ -54,128 +59,129 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Block Duel 首頁">
+    <a class="brand" href="#top" aria-label="Block Duel home">
       <img src="assets/icon.png" alt="" class="brand-icon">
       <span>Block Duel</span>
     </a>
-    <nav aria-label="主要導覽">
-      <a href="#features">功能特色</a>
-      <a href="#gallery">遊戲畫面</a>
-      <a href="#android">玩法</a>
-      <a href="#install">安裝</a>
-      <a href="assets/Block-Duel-1.6.apk" class="nav-download">下載 APK</a>
+    <nav aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#gallery">Screenshots</a>
+      <a href="#android">How it works</a>
+      <a href="#install">Install</a>
+      <a href="assets/Block-Duel-1.6.apk" class="nav-download">Download APK</a>
+      <a href="zh-tw/" lang="zh-Hant-TW">中文</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
       <div class="hero-copy">
-        <span class="badge">免費 · 無廣告 · Android 1.6</span>
+        <span class="badge">Free · No ads · Android 1.6</span>
         <h1>Block Duel</h1>
-        <p class="lead">一款節奏明確的方塊益智遊戲，提供兩種不同體驗：追求高分的 Classic，以及對抗模式感知 BOT 的十關 Tactical Campaign。</p>
+        <p class="lead">A focused falling-block puzzle with two different rhythms: a score-driven Classic mode and a 10-stage Tactical Campaign against a mode-aware bot.</p>
         <div class="actions">
-          <a class="button primary" href="assets/Block-Duel-1.6.apk">↓ 下載 APK 1.6</a>
-          <a class="button" href="#mobile-demo">觀看遊戲影片</a>
+          <a class="button primary" href="assets/Block-Duel-1.6.apk">↓ Download APK 1.6</a>
+          <a class="button" href="#mobile-demo">Watch gameplay</a>
         </div>
       </div>
       <div class="hero-media">
-      <img src="assets/android-main-menu.png" alt="Block Duel Android 主選單，包含 Classic、Tactical 與 BOT 控制">
+      <img src="assets/android-main-menu.png" alt="Block Duel Android main menu with Classic, Tactical and BOT controls">
       </div>
     </section>
 
-    <section class="release-panel" aria-label="版本重點">
+    <section class="release-panel" aria-label="Release highlights">
       <article>
         <span class="metric">v1.6</span>
-        <strong>Android 版本</strong>
-        <p>已簽署 APK，可在 Android 新裝或相容更新。</p>
+        <strong>Android release</strong>
+        <p>Signed APK for clean installation or compatible update on Android.</p>
       </article>
       <article>
         <span class="metric">2 modes</span>
         <strong>Classic + Tactical</strong>
-        <p>兩種目標、介面資訊與 BOT 行為都不同的遊戲循環。</p>
+        <p>Two loops with different goals, HUDs and bot behavior.</p>
       </article>
       <article>
         <span class="metric">Real device</span>
-        <strong>實機測試介面</strong>
-        <p>主選單、控制項與遊戲畫面皆取自 Samsung Galaxy A54 實機。</p>
+        <strong>Phone-tested UI</strong>
+        <p>Menu, controls and gameplay captured on a Samsung Galaxy A54.</p>
       </article>
       <article>
-        <span class="metric">次要版本</span>
-        <strong>Windows 版本</strong>
-        <p>Tetris Deluxe 桌面版/.NET 版本仍可在 Releases 頁面取得。</p>
+        <span class="metric">Alternative platform</span>
+        <strong>Windows edition</strong>
+        <p>The Tetris Deluxe desktop/.NET build remains available on the releases page.</p>
       </article>
     </section>
 
     <section id="features" class="section intro">
       <div>
-        <p class="eyebrow">遊戲內容</p>
-        <h2>不只是熟悉的方塊盤面</h2>
-        <p class="lead small">Mobile 版本保留清楚易懂的方塊規則，並加入適合喜歡規劃、壓力與對手的第二層挑戰。</p>
+        <p class="eyebrow">What's inside</p>
+        <h2>More than a familiar board</h2>
+        <p class="lead small">The mobile version keeps the clean puzzle rules and adds a second layer for players who want planning, pressure and an opponent.</p>
       </div>
       <div class="feature-grid">
-        <article><span class="feature-icon">▣</span><strong>Classic 高分模式</strong><p>10×20 盤面、分數、消除行數、等級、Ghost Piece、Hold，以及即將出現方塊的預覽。</p></article>
-        <article><span class="feature-icon">♟</span><strong>Tactical Campaign</strong><p>十個關卡、回合狀態、目標分數、步數限制，以及可持續的戰役進度。</p></article>
-        <article><span class="feature-icon">🤖</span><strong>模式感知 BOT</strong><p>Classic 可選擇自動遊玩；Tactical 中對手持續運作，BOT 也能接管玩家一側。</p></article>
-        <article><span class="feature-icon">↔</span><strong>觸控優先操作</strong><p>點擊與滑動手勢，搭配標示清楚的 LEFT、RIGHT、TURN、DOWN、DROP、HOLD、BOT 與 PAUSE 按鈕。</p></article>
-        <article><span class="feature-icon">↻</span><strong>本機進度</strong><p>不需帳號或線上個人檔案，即可在不同遊戲階段之間繼續 Tactical Campaign。</p></article>
-        <article><span class="feature-icon">◈</span><strong>誠實的版本範圍</strong><p>APK 不含廣告或分析 SDK。INTERNET 僅保留給與 Windows 主機進行選用的 TCP 多人連線。</p></article>
+        <article><span class="feature-icon">▣</span><strong>Classic score mode</strong><p>10×20 board, score, lines, levels, Ghost Piece, Hold and previews of upcoming pieces.</p></article>
+        <article><span class="feature-icon">♟</span><strong>Tactical Campaign</strong><p>Ten stages, turn state, target score, move limit and a saved campaign path.</p></article>
+        <article><span class="feature-icon">🤖</span><strong>Mode-aware BOT</strong><p>Optional autoplay in Classic; in Tactical the opponent stays active while BOT can control your side.</p></article>
+        <article><span class="feature-icon">↔</span><strong>Touch-first controls</strong><p>Tap and swipe gestures plus labeled LEFT, RIGHT, TURN, DOWN, DROP, HOLD, BOT and PAUSE buttons.</p></article>
+        <article><span class="feature-icon">↻</span><strong>Local progress</strong><p>Continue the Tactical Campaign between sessions without an account or online profile.</p></article>
+        <article><span class="feature-icon">◈</span><strong>Transparent release scope</strong><p>No ad or analytics SDK in the APK. INTERNET is retained only for optional TCP multiplayer with a Windows host.</p></article>
       </div>
     </section>
 
     <section id="gallery" class="section gallery-section">
-      <div class="section-heading"><div><p class="eyebrow">真實 Android 介面</p><h2>遊戲畫面</h2></div></div>
+      <div class="section-heading"><div><p class="eyebrow">Real Android UI</p><h2>Screenshots</h2></div></div>
       <div class="slider" data-slider>
-        <button class="slider-arrow previous" type="button" data-previous aria-label="上一張遊戲畫面">‹</button>
-        <figure class="slide is-active" data-slide><img src="assets/android-main-menu.png" alt="Block Duel Android 主選單"><figcaption><strong>主選單</strong><span>直接進入 Classic、Tactical Campaign，並切換 BOT。</span></figcaption></figure>
-        <figure class="slide" data-slide><img src="assets/android-classic.png" alt="Block Duel Android Classic 模式"><figcaption><strong>Classic</strong><span>HUD、Ghost Piece、Hold、Next/2ND 與觸控操作。</span></figcaption></figure>
-        <figure class="slide" data-slide><img src="assets/android-tactical.png" alt="Block Duel Android Tactical Campaign"><figcaption><strong>Tactical Campaign</strong><span>關卡、回合、雙方分數、目標、步數限制與下一個方塊。</span></figcaption></figure>
-        <button class="slider-arrow next" type="button" data-next aria-label="下一張遊戲畫面">›</button>
+        <button class="slider-arrow previous" type="button" data-previous aria-label="Previous screenshot">‹</button>
+        <figure class="slide is-active" data-slide><img src="assets/android-main-menu.png" alt="Block Duel Android main menu"><figcaption><strong>Main Menu</strong><span>Direct entry to Classic, Tactical Campaign and the BOT switch.</span></figcaption></figure>
+        <figure class="slide" data-slide><img src="assets/android-classic.png" alt="Block Duel Android Classic mode"><figcaption><strong>Classic</strong><span>HUD, Ghost Piece, Hold, Next/2ND and touch controls.</span></figcaption></figure>
+        <figure class="slide" data-slide><img src="assets/android-tactical.png" alt="Block Duel Android Tactical Campaign"><figcaption><strong>Tactical Campaign</strong><span>Stage, turn, scores, goal, move limit and next pieces.</span></figcaption></figure>
+        <button class="slider-arrow next" type="button" data-next aria-label="Next screenshot">›</button>
       </div>
       <div class="slider-dots" data-dots aria-label="Gallery navigation"></div>
       <p class="gallery-hint">← → 方向鍵 · 手機可滑動切換</p>
     </section>
 
     <section id="mobile-demo" class="section intro">
-      <div><p class="eyebrow">安裝前先觀看</p><h2>真實遊戲影片</h2><p class="lead small">兩段影片都來自同一支實體手機上的正式 APK。無需先安裝，就能了解主要遊戲循環。</p></div>
+      <div><p class="eyebrow">Watch before installing</p><h2>Real gameplay clips</h2><p class="lead small">Both recordings come from the release APK on the same physical phone. The in-game interface is currently English; this page is available in English and Traditional Chinese.</p></div>
       <div class="feature-grid">
-        <article><strong>Classic 遊戲過程</strong><img src="assets/android-classic-gameplay.gif" alt="Classic 遊戲過程 GIF 預覽" style="width:100%;border-radius:16px;margin:12px 0"><video controls preload="metadata" style="width:100%;border-radius:16px;background:#111" src="assets/android-classic-gameplay.mp4"></video><p><a href="assets/android-classic-gameplay.mp4">開啟 MP4</a> · <a href="assets/android-classic-gameplay.gif">開啟 GIF</a></p></article>
-        <article><strong>Tactical BOT 遊戲過程</strong><img src="assets/android-tactical-bot-clean.gif" alt="Tactical BOT 遊戲過程 GIF 預覽" style="width:100%;border-radius:16px;margin:12px 0"><video controls preload="metadata" style="width:100%;border-radius:16px;background:#111" src="assets/android-tactical-bot-clean.mp4"></video><p><a href="assets/android-tactical-bot-clean.mp4">開啟 MP4</a> · <a href="assets/android-tactical-bot-clean.gif">開啟 GIF</a></p></article>
+        <article><strong>Classic gameplay</strong><img src="assets/android-classic-gameplay.gif" alt="Classic gameplay GIF preview" style="width:100%;border-radius:16px;margin:12px 0"><video controls preload="metadata" style="width:100%;border-radius:16px;background:#111" src="assets/android-classic-gameplay.mp4"></video><p><a href="assets/android-classic-gameplay.mp4">Open MP4</a> · <a href="assets/android-classic-gameplay.gif">Open GIF</a></p></article>
+        <article><strong>Tactical BOT gameplay</strong><img src="assets/android-tactical-bot-clean.gif" alt="Tactical BOT gameplay GIF preview" style="width:100%;border-radius:16px;margin:12px 0"><video controls preload="metadata" style="width:100%;border-radius:16px;background:#111" src="assets/android-tactical-bot-clean.mp4"></video><p><a href="assets/android-tactical-bot-clean.mp4">Open MP4</a> · <a href="assets/android-tactical-bot-clean.gif">Open GIF</a></p></article>
       </div>
     </section>
 
     <section id="android" class="section android-section">
-      <p class="eyebrow">玩法說明</p>
-      <h2>兩種模式，兩種決策</h2>
+      <p class="eyebrow">How it works</p>
+      <h2>Two modes, two decisions</h2>
       <div class="android-layout">
-        <div class="android-screenshots"><img src="assets/android-classic.png" alt="Block Duel Classic 模式"><img src="assets/android-tactical.png" alt="Block Duel Tactical Campaign"></div>
+        <div class="android-screenshots"><img src="assets/android-classic.png" alt="Block Duel Classic mode"><img src="assets/android-tactical.png" alt="Block Duel Tactical Campaign"></div>
         <div class="android-info">
-          <h3>Classic</h3><p class="android-desc">手動放置方塊、消除行數並挑戰更高分。開啟 BOT 可用於自動遊玩練習或展示；關閉後即可恢復手動控制。</p>
-          <h3>Tactical Campaign</h3><p class="android-desc">挑戰十個關卡，與 BOT 比較分數，在步數限制內達成目標。對手 BOT 一直是模式的一部分；BOT 開關決定玩家一側由手動或自動操作。</p>
-          <h3>操作方式</h3><ul><li>點擊 — 旋轉</li><li>向左/右滑動 — 移動</li><li>向下滑動 — 加速下降</li><li>DROP 按鈕或向上滑動 — 直接落下</li><li>HOLD — 暫存方塊</li><li>PAUSE — 在遊戲中安全暫停</li></ul>
+          <h3>Classic</h3><p class="android-desc">Play manually, place pieces, clear lines and chase a better score. Turn BOT on for autoplay practice or demonstration; turn it off to restore manual control.</p>
+          <h3>Tactical Campaign</h3><p class="android-desc">Play through ten stages. Compare your score with the bot, respect the move limit and reach the goal. The opponent bot is always part of the mode; BOT controls whether your side is manual or automatic.</p>
+          <h3>Controls</h3><ul><li>Tap — rotate</li><li>Swipe left/right — move</li><li>Swipe down — soft drop</li><li>Drop button or swipe up — hard drop</li><li>Hold — save a piece for later</li><li>Pause — stop safely during a session</li></ul>
         </div>
       </div>
     </section>
 
     <section id="install" class="section install-section">
-      <div class="section-heading"><div><p class="eyebrow">安裝方式</p><h2>幾秒鐘完成安裝</h2></div></div>
+      <div class="section-heading"><div><p class="eyebrow">Setup</p><h2>Install in seconds</h2></div></div>
       <div class="install-steps">
-        <div class="install-step"><span class="step-num">1</span><div><strong>下載</strong><p>將 APK 儲存到 Android 手機，或直接在測試裝置上開啟。</p></div></div>
-        <div class="install-step"><span class="step-num">2</span><div><strong>允許來源</strong><p>若 Android 詢問，請允許開啟 APK 的瀏覽器或檔案管理員進行安裝。</p></div></div>
-        <div class="install-step"><span class="step-num">3</span><div><strong>安裝或更新</strong><p>乾淨手機可直接安裝；已有 Block Duel 的手機請不要先解除安裝，直接更新即可保留本機進度。</p></div></div>
+        <div class="install-step"><span class="step-num">1</span><div><strong>Download</strong><p>Save the APK to an Android phone or open it from a test device.</p></div></div>
+        <div class="install-step"><span class="step-num">2</span><div><strong>Allow the source</strong><p>If Android asks, allow installation for the browser or file manager that opened the APK.</p></div></div>
+        <div class="install-step"><span class="step-num">3</span><div><strong>Install or update</strong><p>Install on a clean phone. For an existing Block Duel installation, update without uninstalling to preserve local progress.</p></div></div>
       </div>
-      <div class="install-actions"><a class="button primary install-cta" href="assets/Block-Duel-1.6.apk">↓ 下載 Block Duel 1.6 APK</a><a class="button install-cta" href="https://github.com/Denis-RZ/TetrisDeluxe/releases/latest">查看版本</a></div>
+      <div class="install-actions"><a class="button primary install-cta" href="assets/Block-Duel-1.6.apk">↓ Download Block Duel 1.6 APK</a><a class="button install-cta" href="https://github.com/Denis-RZ/TetrisDeluxe/releases/latest">View releases</a></div>
     </section>
 
     <section class="section" aria-label="Desktop edition">
-      <div style="padding:22px;border:1px solid #d8e5ee;border-radius:18px;background:rgba(255,255,255,.76);box-shadow:0 14px 42px rgba(81,104,136,.1)"><p class="eyebrow">次要桌面版本</p><h2>Tetris Deluxe for Windows</h2><p class="lead small">原有的 Windows/.NET 桌面版本仍提供給桌面玩家與技術作品集審閱，但現在 Android 版是主要入口。</p><a class="button" href="https://github.com/Denis-RZ/TetrisDeluxe/releases/latest">查看 Windows 版本</a></div>
+      <div style="padding:22px;border:1px solid #d8e5ee;border-radius:18px;background:rgba(255,255,255,.76);box-shadow:0 14px 42px rgba(81,104,136,.1)"><p class="eyebrow">Secondary desktop edition</p><h2>Tetris Deluxe for Windows</h2><p class="lead small">The original Windows/.NET version remains available for desktop players and technical portfolio review. It is no longer the main product entry point.</p><a class="button" href="https://github.com/Denis-RZ/TetrisDeluxe/releases/latest">View Windows release</a></div>
     </section>
 
-    <section id="support" class="section support-section"><div class="support-copy"><p class="eyebrow">支持專案</p><h2>支持這個作品</h2><p class="lead small">Block Duel 免費且沒有廣告。你的回饋將協助改善平衡性、手機體驗與未來版本。</p></div></section>
+    <section id="support" class="section support-section"><div class="support-copy"><p class="eyebrow">Support</p><h2>Support the project</h2><p class="lead small">Block Duel is free and has no ads. Feedback helps guide balancing, mobile polish and future releases.</p></div><div class="feedback-actions"><a class="button primary" href="https://github.com/Denis-RZ/TetrisDeluxe/discussions">Join the discussion</a></div></section>
 
-    <section id="feedback" class="section feedback-section"><div><p class="eyebrow">社群</p><h2>留言與回饋</h2><p class="lead small">歡迎告訴我哪些地方薄弱、令人困惑，或最值得下一步改善。</p></div><div class="feedback-actions"><a class="button primary" href="https://github.com/Denis-RZ/TetrisDeluxe/discussions">前往留言</a><a class="button" href="https://github.com/Denis-RZ/TetrisDeluxe/issues/new?template=feedback.yml">回報問題</a></div></section>
+    <section id="feedback" class="section feedback-section"><div><p class="eyebrow">Community</p><h2>Comments and feedback</h2><p class="lead small">Tell me what feels unclear, frustrating or worth improving next.</p></div><div class="feedback-actions"><a class="button primary" href="https://github.com/Denis-RZ/TetrisDeluxe/discussions">Open comments</a><a class="button" href="https://github.com/Denis-RZ/TetrisDeluxe/issues/new?template=feedback.yml">Report a bug</a></div></section>
   </main>
 
-  <footer><span>Block Duel · Tetris Deluxe</span><a href="https://github.com/Denis-RZ/TetrisDeluxe">GitHub</a><a href="assets/Block-Duel-1.6.apk">下載 APK</a><a href="https://github.com/Denis-RZ/TetrisDeluxe/discussions">討論區</a></footer>
+  <footer><span>Block Duel · Tetris Deluxe</span><a href="https://github.com/Denis-RZ/TetrisDeluxe">GitHub</a><a href="assets/Block-Duel-1.6.apk">Download APK</a><a href="https://github.com/Denis-RZ/TetrisDeluxe/discussions">Discussions</a><a href="zh-tw/" lang="zh-Hant-TW">繁體中文</a></footer>
 
   <script>
     const slider = document.querySelector("[data-slider]");
@@ -187,7 +193,7 @@
       slides.forEach((slide, i) => slide.classList.toggle("is-active", i === currentSlide));
       [...dotsHost.children].forEach((dot, i) => { dot.classList.toggle("is-active", i === currentSlide); dot.setAttribute("aria-current", i === currentSlide ? "true" : "false"); });
     };
-    slides.forEach((_, index) => { const dot = document.createElement("button"); dot.type = "button"; dot.setAttribute("aria-label", `顯示第 ${index + 1} 張遊戲畫面`); dot.addEventListener("click", () => setSlide(index)); dotsHost.appendChild(dot); });
+    slides.forEach((_, index) => { const dot = document.createElement("button"); dot.type = "button"; dot.setAttribute("aria-label", `Show screenshot ${index + 1}`); dot.addEventListener("click", () => setSlide(index)); dotsHost.appendChild(dot); });
     slider.querySelector("[data-previous]").addEventListener("click", () => setSlide(currentSlide - 1));
     slider.querySelector("[data-next]").addEventListener("click", () => setSlide(currentSlide + 1));
     document.addEventListener("keydown", (e) => { if (e.key === "ArrowLeft") setSlide(currentSlide - 1); if (e.key === "ArrowRight") setSlide(currentSlide + 1); });
