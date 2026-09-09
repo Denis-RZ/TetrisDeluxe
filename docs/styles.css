@@ -248,7 +248,12 @@ h2 {
 
 .hero-media img {
   display: block;
-  width: 100%;
+  width: auto;
+  max-width: 100%;
+  max-height: 620px;
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain;
   border: 1px solid var(--line);
   border-radius: 22px;
   background: var(--paper);
@@ -790,6 +795,10 @@ footer a {
   .hero-media::before {
     inset: -8px;
     border-radius: 20px;
+  }
+
+  .hero-media img {
+    max-height: 560px;
   }
 
   .actions,
